@@ -114,7 +114,7 @@ Move it to a directory in your system PATH.
 
 1. Update the kubeconfig file to include your EKS cluster. Replace <region-name> with your cluster's region (e.g., us-west-2) and <cluster-name> with your EKS cluster name.
 
-```aws eks update-kubeconfig --region ap-southeast-1--name gcash-fecp5-cluster```
+```aws eks update-kubeconfig --region ap-southeast-1 --name gcash-fecp5-cluster```
 
 2. Verify the cluster connection:
 ```kubectl get svc```
